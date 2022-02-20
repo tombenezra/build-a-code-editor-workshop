@@ -31,5 +31,11 @@ This workshop will teach you how to build a code editor using [monaco editor](ht
        ```
        and set the cursor in the middle log command
      * add the global variable `$` with different apis
-  6. Load external type definitions into the code editor (link random `d.ts` here)
+  6. Load external type definitions into the code editor, any `d.ts` will do
   7. Multiple file support (don't go too hard on file navigation, simply have two or more files and allow swapping between them somehow)
+  8. Experiment with some more language features that monaco provides (code lens, highlights etc)
+  9. Got that far? 😮 Here are some advanced features you could implement
+    * Integrate a new web worker that handles eslint/any static analysis to the code
+    * Customize the out-of-the-box typescript worker with custom functionality
+    * Go to definition
+    * Other cool stuff 
