@@ -33,3 +33,9 @@ This workshop will teach you how to build a code editor using [monaco editor](ht
      * add the global variable `$` with different apis
   - [ ] Load external type definitions into the code editor (link random `d.ts` here)
   - [ ] Multiple file support (don't go too hard on file navigation, simply have two or more files and allow swapping between them somehow)
+  - [ ] Integrate some more language features (code lens, highlights or similar, full list of APIs can be found [here](https://microsoft.github.io/monaco-editor/api/modules/monaco.languages.html))
+  - [ ]  Got that far? 😮 here are additional ideas to experiment with:
+    - Create an additional web worker that will handle code styling (eslint for instance, but you can go with any code analysis tool you love)
+    - Allow user to customized their own theme
+    - Go to definition
+    - Anything which is cool
