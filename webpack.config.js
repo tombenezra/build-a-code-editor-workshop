@@ -13,6 +13,9 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "app.js",
   },
+  cache: {
+      type: 'filesystem'
+  },
   performance: {
     hints: false,
     maxEntrypointSize: 512000,
@@ -39,7 +42,7 @@ module.exports = {
     new CopyWebpackPlugin({
       patterns: [{ from: "./styles.css", to: "./styles.css" }],
     }),
-    new MonacoWebpackPlugin(),
+    new MonacoWebpackPlugin({ languages: ['typescript'] }),
   ],
   devServer: {
     open: true,
